@@ -1,0 +1,3 @@
+#!/bin/bash
+/n echo "${BASH_SOURCE[0]%/*}"
+
