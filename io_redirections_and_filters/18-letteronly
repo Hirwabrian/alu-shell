@@ -1,2 +1,2 @@
 #!/bin/bash 
-find /etc/ssh/sshd_config -exec grep -Hi penguin {} \;
+cat /etc/ssh/sshd_config | grep -i "^[a-z]" 
