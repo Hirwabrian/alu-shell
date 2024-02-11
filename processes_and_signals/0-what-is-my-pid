@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-cat PID of this script is : $$
+echo "PID of this script is :" $$
