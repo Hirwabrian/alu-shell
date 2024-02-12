@@ -12,10 +12,10 @@ function love() {
     exit
 }
 
-trap "echo I hate the kill command;love" SIGTERM
-trap "echo Y U no love me?!;love" SIGINT
+trap " I hate the kill command; love" SIGTERM
+trap "Y U no love me?!; love" SIGINT
 
 
-while [ true ]; do
+while true ; do
     echo To infinity and beyond;
 done
