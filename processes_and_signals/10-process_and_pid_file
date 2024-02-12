@@ -5,7 +5,6 @@
 
 
 
-echo $$ >> /var/run/myscript.pid
 
 function love() {
     rm /var/run/myscript.pid
@@ -15,7 +14,7 @@ function love() {
 trap " I hate the kill command; love" SIGTERM
 trap "Y U no love me?!; love" SIGINT
 
-
-while true ; do
+sudo bash -c 'echo $$ > /var/run/myscript.pid'
+while true; do
     echo To infinity and beyond;
 done
